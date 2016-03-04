@@ -1,0 +1,60 @@
+html,body{
+	min-height: 100%;
+	background: grey;
+}
+body{
+	padding-top: 100px;
+}
+
+#container{
+	height:500px;
+	width:500px;
+	margin: auto;
+	background:white;
+}
+
+#tb{
+    background: red;	
+    height: 40px;
+    width: 400px;
+    position: relative;
+    top: 220px;
+    left: 40px;
+    -webkit-transform: rotate(-29deg);
+    z-index: 3;
+
+}
+
+#bt{
+    background: red;
+    height: 40px;
+    width: 360px;
+    position: relative;
+    top: 201px;
+    left: 55px;
+    -webkit-transform: rotate(-119deg);
+    z-index: 4;
+
+}
+
+#fore{
+    height: 50px;
+    width: 230px;
+    background: #A94949;
+    position: relative;
+    top: 96px;
+    left: 8px;
+    -webkit-transform: rotate(24deg);
+    z-index: 5;
+}
+
+#back{
+    height: 40px;
+    width: 170px;
+    background: #713939;
+    position: relative;
+    top: 117px;
+    left: 188px;
+    -webkit-transform: rotate(24deg);
+    z-index: 2;
+}
