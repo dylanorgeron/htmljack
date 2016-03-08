@@ -53,7 +53,7 @@ body{
     position: relative;
     top: 220px;
     left: 60px;
-    -webkit-transform: rotate(-29deg);
+    transform: rotate(-29deg);
     z-index: 3;
 
 }
@@ -65,7 +65,7 @@ body{
     position: relative;
     top: 201px;
     left: 75px;
-    -webkit-transform: rotate(-119deg);
+    transform: rotate(-119deg);
     z-index: 4;
 
 }
@@ -77,7 +77,7 @@ body{
     position: relative;
     top: 100px;
     left: 58px;
-    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
     z-index: 5;
 }
 
@@ -88,7 +88,7 @@ body{
     position: relative;
     top: 117px;
     left: 208px;
-    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
     z-index: 2;
 }
 
@@ -102,7 +102,7 @@ body{
     z-index: 10;
     top: 139px;
     left: 41px;
-    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg);
 }
 
 #fore-topcap2{
@@ -115,7 +115,7 @@ body{
     top: 140px;
     left: 50px;
     z-index: 9;
-    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg);
 }
 
 #fore-botcap{
@@ -128,7 +128,7 @@ body{
     top: 218px;
     left: 220px;
     z-index: 9;
-    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg);
 }
 
 #back-cap{
@@ -141,7 +141,7 @@ body{
     top: 283px;
     left: 354px;
     z-index: 9;
-    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg);
 }
 
 #back-cap2{
@@ -154,7 +154,7 @@ body{
     top: 279px;
     left: 355px;
     z-index: 1;
-    -webkit-transform: rotate(11deg);
+    transform: rotate(11deg);
 }
 
 #bt-bot-cap{
@@ -167,7 +167,7 @@ body{
     top: 318px;
     left: 68px;
     z-index: 3;
-    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #bt-bot-cap2{
@@ -180,7 +180,7 @@ body{
     top: 316px;
     left: 62px;
     z-index: 2;
-    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #bt-bot-cap3{
@@ -193,7 +193,7 @@ body{
     top: 325px;
     left: 55px;
     z-index: 1;
-    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #bt-top-cap{
@@ -206,7 +206,7 @@ body{
     top: 124px;
     left: 418px;
     z-index: 3;
-    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #bt-top-cap2{
@@ -219,7 +219,7 @@ body{
     top: 116px;
     left: 421px;
     z-index: 2;
-    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #bt-top-cap3{
@@ -232,7 +232,7 @@ body{
     top: 118px;
     left: 430px;
     z-index: 1;
-    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
 }
 
 #tb-top-cap{
@@ -245,7 +245,7 @@ body{
     top: 84px;
     left: 153px;
     z-index: 3;
-    -webkit-transform: rotate(57deg);
+    transform: rotate(57deg);
 }
 
 #tb-top-cap2{
@@ -258,7 +258,7 @@ body{
     top: 74px;
     left: 147px;
     z-index: 2;
-    -webkit-transform: rotate(57deg);
+    transform: rotate(57deg);
 }
 
 #tb-top-cap3{
@@ -271,7 +271,7 @@ body{
     top: 70px;
     left: 145px;
     z-index: 1;
-    -webkit-transform: rotate(57deg);
+    transform: rotate(57deg);
 }
 
 #tb-bot-cap{
@@ -284,7 +284,7 @@ body{
     top: 400px;
     left: 328px;
     z-index: 3;
-    -webkit-transform: rotate(57deg);
+    transform: rotate(57deg);
 }
 
 #tb-bot-cap2{
@@ -297,7 +297,7 @@ body{
     top: 400px;
     left: 327px;
     z-index: 4;
-    -webkit-transform: rotate(57deg);
+    transform: rotate(57deg);
 }
 
 #tb-bot-cap3{
@@ -310,5 +310,5 @@ body{
     top: 412px;
     left: 335px;
     z-index: 6;
-    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
 }
