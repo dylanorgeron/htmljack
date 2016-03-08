@@ -3,14 +3,398 @@
 <head>
 	<title>Lovejack</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="script.js"></script>
 </head>
 <body>
 
-<div id="container">
-	<div id="tb"></div>
-	<div id="bt"></div>
-	<div id="fore"></div>
-	<div id="back"></div>
+
+<div id='code'>
+	<div id='html'>
+		HTML
+		<div class="text"></div>
+	</div>
+	<div id='css'>
+		CSS
+		<div class="text">
+			#bt{ 
+			<br>
+			<div class='indent'>
+			    background: #8E3737; <br>	
+			    height: 40px; <br>
+			    width: 400px; <br>
+			    position: relative; <br>
+			    top: 220px; <br>
+			    left: 60px; <br>
+			    -webkit-transform: rotate(-29deg); <br>
+			    z-index: 3; <br>
+	    	</div>
+			}
+			<br>
+
+			#tb{
+			<br>
+			<div class='indent'>
+			    background: #8E3737; <br>
+			    height: 40px; <br>
+			    width: 360px; <br>
+			    position: relative; <br>
+			    top: 201px; <br>
+			    left: 75px; <br>
+			    -webkit-transform: rotate(-119deg); <br>
+			    z-index: 4; <br>
+
+			</div>
+			}
+			<br>
+
+			#fore{
+			<br>
+			<div class='indent'>
+			    height: 50px; <br>
+			    width: 190px; <br>
+			    background: #A94949; <br>
+			    position: relative; <br>
+			    top: 100px; <br>
+			    left: 58px; <br>
+			    -webkit-transform: rotate(24deg); <br>
+			    z-index: 5; <br>
+			</div>
+			}
+			<br>
+
+			#back{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    width: 170px; <br>
+			    background: #713939; <br>
+			    position: relative; <br>
+			    top: 117px; <br>
+			    left: 208px; <br>
+			    -webkit-transform: rotate(24deg); <br>
+			    z-index: 2; <br>
+			</div>
+			}
+			<br>
+
+
+			#fore-topcap{
+			<br>
+			<div class='indent'>
+				height: 51px; <br>
+			    position: absolute; <br>
+			    width: 40px; <br>
+			    background: #A94949; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 139px; <br>
+			    left: 41px; <br>
+			    -webkit-transform: rotate(11deg); <br>
+			</div>
+			}
+			<br>
+
+			#fore-topcap2{
+			<br>
+			<div class='indent'>
+			    height: 56px; <br>
+			    position: absolute; <br>
+			    width: 40px; <br>
+			    background: #713939; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 140px; <br>
+			    left: 50px; <br>
+			    z-index: 9; <br>
+			    -webkit-transform: rotate(11deg); <br>
+			</div>
+			}
+			<br>
+
+			#fore-botcap{
+			<br>
+			<div class='indent'>
+			    height: 51px; <br>
+			    position: absolute; <br>
+			    width: 40px; <br>
+			    background: #A94949; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 218px; <br>
+			    left: 220px; <br>
+			    z-index: 9; <br>
+			    -webkit-transform: rotate(11deg); <br>
+			</div>
+			}
+			<br>
+
+			#back-cap{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 40px; <br>
+			    background: #713939; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 283px; <br>
+			    left: 354px; <br>
+			    z-index: 9; <br>
+			    -webkit-transform: rotate(11deg); <br>
+			</div>
+			}
+			<br>
+
+			#back-cap2{
+			<br>
+			<div class='indent'>
+			    height: 52px; <br>
+			    position: absolute; <br>
+			    width: 48px; <br>
+			    background: #522626; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 279px; <br>
+			    left: 355px; <br>
+			    z-index: 1; <br>
+			    -webkit-transform: rotate(11deg); <br>
+			</div>
+			}
+			<br>
+
+			#bt-bot-cap{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 318px; <br>
+			    left: 68px; <br>
+			    z-index: 3; <br>
+			    -webkit-transform: rotate(-24deg); <br>
+			</div>
+			}
+			<br>
+
+			#bt-bot-cap2{
+			<br>
+			<div class='indent'>
+			    height: 50px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #522626; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 316px; <br>
+			    left: 62px; <br>
+			    z-index: 2; <br>
+			    -webkit-transform: rotate(-24deg); <br>
+			</div>
+			}
+			<br>
+
+			#bt-bot-cap3{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 325px; <br>
+			    left: 55px; <br>
+			    z-index: 1; <br>
+			    -webkit-transform: rotate(-24deg); <br>
+			</div>
+			}
+			<br>
+
+			#bt-top-cap{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 124px; <br>
+			    left: 418px; <br>
+			    z-index: 3; <br>
+			    -webkit-transform: rotate(-24deg); <br>
+			</div>
+			}
+			<br>
+
+			#bt-top-cap2{
+			<br>
+			<div class='indent'>
+			    height: 50px; <br>
+			    position: absolute; <br>
+			    width: 36px; <br>
+			    background: #522626; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 116px; <br>
+			    left: 421px; <br>
+			    z-index: 2; <br>
+			    -webkit-transform: rotate(-24deg); <br>
+			</div>
+			}
+			<br>
+
+			#bt-top-cap3{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 118px; <br>
+			    left: 430px; <br>
+			    z-index: 1; <br>
+			    -webkit-transform: rotate(-24deg); <br>
+			</div>
+			}
+			<br>
+
+			#tb-top-cap{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 84px; <br>
+			    left: 153px; <br>
+			    z-index: 3; <br>
+			    -webkit-transform: rotate(57deg); <br>
+			</div>
+			}
+			<br>
+
+			#tb-top-cap2{
+			<br>
+			<div class='indent'>
+			    height: 50px; <br>
+			    position: absolute; <br>
+			    width: 36px; <br>
+			    background: #522626; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 74px; <br>
+			    left: 147px; <br>
+			    z-index: 2; <br>
+			    -webkit-transform: rotate(57deg); <br>
+			</div>
+			}
+			<br>
+
+			#tb-top-cap3{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 70px; <br>
+			    left: 145px; <br>
+			    z-index: 1; <br>
+			    -webkit-transform: rotate(57deg); <br>
+			</div>
+			}
+			<br>
+
+			#tb-bot-cap{
+			<br>
+			<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 50%; <br>
+			    z-index: 10; <br>
+			    top: 400px; <br>
+			    left: 328px; <br>
+			    z-index: 3; <br>
+			    -webkit-transform: rotate(57deg); <br>
+			</div>
+			}
+			<br>
+
+			#tb-bot-cap2{
+			<br>
+			<div class='indent'>
+			    height: 50px; <br>
+			    position: absolute; <br>
+			    width: 36px; <br>
+			    background: #A94949; <br>
+			    border-radius: 48%; <br>
+			    z-index: 10; <br>
+			    top: 400px; <br>
+			    left: 327px; <br>
+			    z-index: 4; <br>
+			    -webkit-transform: rotate(57deg); <br>
+			</div>
+			}
+			<br>
+
+			#tb-bot-cap3{
+				<div class='indent'>
+			    height: 40px; <br>
+			    position: absolute; <br>
+			    width: 30px; <br>
+			    background: #8E3737; <br>
+			    border-radius: 45%; <br>
+			    z-index: 10; <br>
+			    top: 412px; <br>
+			    left: 335px; <br>
+			    z-index: 6; <br>
+			    -webkit-transform: rotate(60deg); <br>
+			</div>
+			}
+		</div>
+	</div>
+</div>
+
+<div id='container'>
+	
+	<div id='bt'></div>
+	<div id='bt-bot-cap'></div>
+	<div id='bt-bot-cap2'></div>
+	<div id='bt-bot-cap3'></div>
+	<div id='bt-top-cap'></div>
+	<div id='bt-top-cap2'></div>
+	<div id='bt-top-cap3'></div>
+
+	<div id='tb'></div>
+	<div id='tb-top-cap'></div>
+	<div id='tb-top-cap2'></div>
+	<div id='tb-top-cap3'></div>
+	<div id='tb-bot-cap'></div>
+	<div id='tb-bot-cap2'></div>
+	<div id='tb-bot-cap3'></div>
+
+	<div id='fore-topcap'></div>
+	<div id='fore-topcap2'></div>
+	<div id='fore-botcap'></div>
+	<div id='fore'></div>
+
+	<div id='back'></div>
+	<div id='back-cap'></div>
+	<div id='back-cap2'></div>
+
 </div>
 
 </body>
